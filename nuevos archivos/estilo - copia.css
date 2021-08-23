@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+
+}
+
+
+body{
+    background:rgba(148, 221, 178, 0.501);
+color:rgb(21, 24, 24);
+font-family: 'STIX Two Text', serif;
+
+}
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+ display: flex;
+height: inherit;
+
+}
+.header li{
+
+    height: inherit;
+}
+.menu{
+height: inherit;
+
+}
+
+.header{
+background-color: rgba(144, 255, 157, 0.405);
+color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+height: 90px;
+
+}
+
+.header a{ 
+color: rgb(0, 0, 0);
+text-decoration: none;
+height: inherit;
+display: flex;
+align-items: center; 
+padding: 0px 10px;
+
+}
+.logo img{
+width: 50px;
+}
+.principal-boton{
+
+    width: 250px;
+    height: 40px;
+    background-color: rgb(183, 20, 204);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+margin-top: 30px;
+}
+.principal{
+    background-color: rgba(220, 242, 143, 0.405);
+background-image:url('https://s1.1zoom.me/big0/843/428052-Kycb.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+padding: 100px;
+}
+h1{
+    font-family: 'Palette Mosaic', cursive;
+    text-align: center;
+font-size: 30px;
+    
+}   
+h1 strong{
+color: aqua;}
+.principal img{
+width: 300px;
+
+}
+.ENTENDER_EMOCIONES{
+    background-color: rgb(0, 43, 42);
+   text-align: center;
+   padding: 50px;
+   font-size: 20px; 
+}
+.ENTENDER_EMOCIONES h2{
+color: rgb(179, 235, 245);
+    margin-bottom: 10px ;
+}
+.ENTENDER_EMOCIONES p{
+  margin-bottom: 20px ;
+color: aqua;
+}
+/*
+.padre{
+background-color: darksalmon;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content:center; 
+height: 500px;
+align-items: center;
+}
+.hijo{
+background-color: firebrick;
+width:200px;
+height: 200px;
+border: 2px solid black;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+*/
+.aplicar{
+height: 500px;
+background-color: rgba(243, 236, 36, 0.734);
+display: flex;
+color: black;
+}
+.aplicar-detalles{
+width: 50%;
+height: inherit;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+padding: 0px 30px;
+text-align: center;
+}
+.aplicar-detalles img{
+    height: 90%;
+
+}
+
+
+.tercera{
+    background-color: rgb(247, 235, 69);
+    color: rgb(140, 55, 72);
+    text-align:left;
+    padding: 25px 100px 200px 50px;
+    margin: 25px 50px 200px 100px;
+}
+
+.PSICOLOGIA{
+background-color: rgb(234, 255, 205);
+color: black;
+text-align: center;
+padding:60px;
+}
+
+
+.PSICOLOGIA img{
+height: 119px;
+width: 102px;
+}
+
+
+.psicologa-oficial{
+background-color: rgb(199, 245, 228);
+color: black;
+text-align: center;
+padding: 54px;
+margin: 2px;
+font-size: 30px;
+}
+
+
+
+.boton-forms{
+width: 150px;
+height: 40px;
+background-color: rgb(0, 187, 255);
+border-radius: 24px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+margin-top: 30px;
+
+}
+
+
+
+.NUESTRAS-REDES-SOCIALES{
+background-color: rgb(122, 174, 223);
+color:black;
+text-align: center;
+padding: 60px;
+margin: 32px;
+font-size: 30px;
+}
+.NUESTRAS-REDES-SOCIALES img{
+height: 70px;
+}
+.boton-tiktok{
+width: 150px;
+height: 40px;
+background-color: rgba(255, 149, 110, 0.583);
+border-radius: 24px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+margin-top: 30px;
+}
+.CAPTURAS-REDES{
+background-color: rgba(237, 188, 231, 0.885);
+color: black;
+text-align: center;
+padding: 60px;
+font-size: 30px;
+
+}
+.CAPTURAS-REDES h6{
+color: rgb(253, 0, 203);
+margin-bottom: 20px;
+}
+
+.COACHING{
+background-color: rgb(169, 200, 201);
+color: floralwhite;
+text-align: center;
+padding: 50px;
+font-size: 30px;
+}
+ .COACHING img{
+height: 252px;
+width: 200px;
+ }
